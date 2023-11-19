@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*           Hero section         */
+
+.hero-section{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../img/back/hero-sec-back.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*          Navigation bar          */
+
+nav{
+	display: flex;
+	padding: 24px 64px;
+	align-items: center;
+}
+
+nav img{
+	width: 150px;
+	cursor: pointer;
+}
+
+.nav-links{
+	float: right;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.nav-links div{
+	float: left;
+	font-size: 22px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.faq{
+	border: 2px solid transparent;
+	padding: 4px;
+}
+
+.faq:hover{
+	color: #fff;
+}
+
+.nav-bar-btn{
+	border: 2px solid #000;
+	border-radius: 30px;
+	padding: 4px 18px;
+	background: #ffb317;
+	color: #000;
+}
+
+.nav-bar-btn:hover{
+	border-color: #fff;
+	color: #fff;
+}
+
+/*         Hero content           */
+
+.hero-content{
+	
+}
+
+.hero-content h1{
+	color: #fff;
+	font-size: 64px;
+	transition: 0.5s;
+}
+
+.hero-content h1:hover{
+	font-size: 78px;
+}
+
+.hero-btn{
+	display: flex;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	padding: 4px 18px;
+	background: #fff;
+	color: #000;
+	width: 140px;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	margin-top: 32px;
+	cursor: pointer;
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+}
+
+/*          Footer             */
+
+.logo-address{
+	grid-area: a;
+}
+
+.logo-address img{
+	width: 100px;
+	margin-bottom: 24px;
+	cursor: pointer;
+	opacity: 60%;
+}
+
+.logo-address img:hover{
+	opacity: 100%;
+}
+
+.logo-address p{
+	color: #fff;
+}
+
+.social-icons{
+	grid-area: b;
+}
+
+.social-icons h3{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+
+.main-fa-brands{
+	margin: auto;
+}
+
+.social-icons .fa-brands{
+	color: #fff;
+	margin-right: 10px;
+	cursor: pointer;
+	opacity: 60%;
+}
+
+.social-icons .fa-brands:hover{
+	opacity: 100%;
+}
+
+.links{
+	grid-area: c;
+}
+
+.links p{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	cursor: pointer;
+	opacity: 80%;
+}
+
+.links p:hover{
+	opacity: 100%;
+}
+
+.copyright{
+	grid-area: d;
+}
+
+.copyright p{
+	color: #fff;
+	font-size: 11px;
+	opacity: 80%;
+}
